@@ -1,0 +1,2523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="stsPrimaryLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="stsPrimaryLabel.Text" xml:space="preserve">
+    <value>Please Log In</value>
+  </data>
+  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 537</value>
+  </data>
+  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>480, 22</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="statusStrip1.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="comboBox1.Items" xml:space="preserve">
+    <value>English:</value>
+  </data>
+  <data name="comboBox1.Items1" xml:space="preserve">
+    <value>uni42.ogame.org</value>
+  </data>
+  <data name="comboBox1.Items2" xml:space="preserve">
+    <value>andromeda.ogame.org</value>
+  </data>
+  <data name="comboBox1.Items3" xml:space="preserve">
+    <value>barym.ogame.org</value>
+  </data>
+  <data name="comboBox1.Items4" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBox1.Items5" xml:space="preserve">
+    <value>German:</value>
+  </data>
+  <data name="comboBox1.Items6" xml:space="preserve">
+    <value>andromeda.ogame.de</value>
+  </data>
+  <data name="comboBox1.Items7" xml:space="preserve">
+    <value>barym.ogame.de</value>
+  </data>
+  <data name="comboBox1.Items8" xml:space="preserve">
+    <value>capella.ogame.de</value>
+  </data>
+  <data name="comboBox1.Items9" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBox1.Items10" xml:space="preserve">
+    <value>Italian:</value>
+  </data>
+  <data name="comboBox1.Items11" xml:space="preserve">
+    <value>andromeda.ogame.it</value>
+  </data>
+  <data name="comboBox1.Items12" xml:space="preserve">
+    <value>barym.ogame.it</value>
+  </data>
+  <data name="comboBox1.Items13" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBox1.Items14" xml:space="preserve">
+    <value>Polish:</value>
+  </data>
+  <data name="comboBox1.Items15" xml:space="preserve">
+    <value>andromeda.ogame.onet.pl</value>
+  </data>
+  <data name="comboBox1.Items16" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBox1.Items17" xml:space="preserve">
+    <value>Portuguese:</value>
+  </data>
+  <data name="comboBox1.Items18" xml:space="preserve">
+    <value>andromeda.ogame.com.pt</value>
+  </data>
+  <data name="comboBox1.Items19" xml:space="preserve">
+    <value />
+  </data>
+  <data name="comboBox1.Items20" xml:space="preserve">
+    <value>Turkish:</value>
+  </data>
+  <data name="comboBox1.Items21" xml:space="preserve">
+    <value>andromeda.ogame.com.tr</value>
+  </data>
+  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 110</value>
+  </data>
+  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 21</value>
+  </data>
+  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
+    <value>comboBox1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblOGameUniverse.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblOGameUniverse.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOGameUniverse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 113</value>
+  </data>
+  <data name="lblOGameUniverse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="lblOGameUniverse.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblOGameUniverse.Text" xml:space="preserve">
+    <value>OGame Universe</value>
+  </data>
+  <data name="&gt;&gt;lblOGameUniverse.Name" xml:space="preserve">
+    <value>lblOGameUniverse</value>
+  </data>
+  <data name="&gt;&gt;lblOGameUniverse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOGameUniverse.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;lblOGameUniverse.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBox1.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 32</value>
+  </data>
+  <data name="textBox1.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>●</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 20</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblForumPassword.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblForumPassword.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblForumPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 35</value>
+  </data>
+  <data name="lblForumPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 13</value>
+  </data>
+  <data name="lblForumPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblForumPassword.Text" xml:space="preserve">
+    <value>Forum Password</value>
+  </data>
+  <data name="&gt;&gt;lblForumPassword.Name" xml:space="preserve">
+    <value>lblForumPassword</value>
+  </data>
+  <data name="&gt;&gt;lblForumPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblForumPassword.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;lblForumPassword.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textBox2.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 6</value>
+  </data>
+  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 20</value>
+  </data>
+  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
+    <value>textBox2</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblForumUsername.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblForumUsername.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblForumUsername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 9</value>
+  </data>
+  <data name="lblForumUsername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 13</value>
+  </data>
+  <data name="lblForumUsername.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblForumUsername.Text" xml:space="preserve">
+    <value>Forum Username</value>
+  </data>
+  <data name="&gt;&gt;lblForumUsername.Name" xml:space="preserve">
+    <value>lblForumUsername</value>
+  </data>
+  <data name="&gt;&gt;lblForumUsername.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblForumUsername.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;lblForumUsername.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>314, 76</value>
+  </data>
+  <data name="btnLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 46</value>
+  </data>
+  <data name="btnLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnLogin.Text" xml:space="preserve">
+    <value>Login</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.Name" xml:space="preserve">
+    <value>btnLogin</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;btnLogin.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtPassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 84</value>
+  </data>
+  <data name="txtPassword.PasswordChar" type="System.Char, mscorlib" xml:space="preserve">
+    <value>●</value>
+  </data>
+  <data name="txtPassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 20</value>
+  </data>
+  <data name="txtPassword.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.Name" xml:space="preserve">
+    <value>txtPassword</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;txtPassword.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblOGamePassword.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblOGamePassword.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 87</value>
+  </data>
+  <data name="lblOGamePassword.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="lblOGamePassword.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblOGamePassword.Text" xml:space="preserve">
+    <value>OGame Password</value>
+  </data>
+  <data name="&gt;&gt;lblOGamePassword.Name" xml:space="preserve">
+    <value>lblOGamePassword</value>
+  </data>
+  <data name="&gt;&gt;lblOGamePassword.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOGamePassword.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;lblOGamePassword.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtUsername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>106, 58</value>
+  </data>
+  <data name="txtUsername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 20</value>
+  </data>
+  <data name="txtUsername.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtUsername.Name" xml:space="preserve">
+    <value>txtUsername</value>
+  </data>
+  <data name="&gt;&gt;txtUsername.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtUsername.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;txtUsername.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblOGameUsername.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblOGameUsername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 61</value>
+  </data>
+  <data name="lblOGameUsername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="lblOGameUsername.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblOGameUsername.Text" xml:space="preserve">
+    <value>OGame Username</value>
+  </data>
+  <data name="&gt;&gt;lblOGameUsername.Name" xml:space="preserve">
+    <value>lblOGameUsername</value>
+  </data>
+  <data name="&gt;&gt;lblOGameUsername.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOGameUsername.Parent" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;lblOGameUsername.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 511</value>
+  </data>
+  <data name="tabPage1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage1.Text" xml:space="preserve">
+    <value>User Information</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Name" xml:space="preserve">
+    <value>tabPage1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabPage1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtLog.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="txtLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="txtLog.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtLog.ScrollBars" type="System.Windows.Forms.ScrollBars, System.Windows.Forms">
+    <value>Both</value>
+  </data>
+  <data name="txtLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 505</value>
+  </data>
+  <data name="txtLog.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="txtLog.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;txtLog.Name" xml:space="preserve">
+    <value>txtLog</value>
+  </data>
+  <data name="&gt;&gt;txtLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtLog.Parent" xml:space="preserve">
+    <value>tabLog</value>
+  </data>
+  <data name="&gt;&gt;txtLog.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabLog.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 511</value>
+  </data>
+  <data name="tabLog.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabLog.Text" xml:space="preserve">
+    <value>Log</value>
+  </data>
+  <data name="&gt;&gt;tabLog.Name" xml:space="preserve">
+    <value>tabLog</value>
+  </data>
+  <data name="&gt;&gt;tabLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabLog.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabLog.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lstToBuildTrue.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="lstToBuildTrue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>73, 262</value>
+  </data>
+  <data name="lstToBuildTrue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 238</value>
+  </data>
+  <data name="lstToBuildTrue.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="lstToBuildTrue.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lstToBuildTrue.Name" xml:space="preserve">
+    <value>lstToBuildTrue</value>
+  </data>
+  <data name="&gt;&gt;lstToBuildTrue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstToBuildTrue.Parent" xml:space="preserve">
+    <value>pnlPlanetInfo</value>
+  </data>
+  <data name="&gt;&gt;lstToBuildTrue.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpConstructionInfo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="btnBotStatus.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 105</value>
+  </data>
+  <data name="btnBotStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 23</value>
+  </data>
+  <data name="btnBotStatus.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnBotStatus.Text" xml:space="preserve">
+    <value>Start Bot</value>
+  </data>
+  <data name="&gt;&gt;btnBotStatus.Name" xml:space="preserve">
+    <value>btnBotStatus</value>
+  </data>
+  <data name="&gt;&gt;btnBotStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBotStatus.Parent" xml:space="preserve">
+    <value>grpConstructionInfo</value>
+  </data>
+  <data name="&gt;&gt;btnBotStatus.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="nudConstructionNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>63, 135</value>
+  </data>
+  <data name="nudConstructionNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 20</value>
+  </data>
+  <data name="nudConstructionNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="nudConstructionNumber.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;nudConstructionNumber.Name" xml:space="preserve">
+    <value>nudConstructionNumber</value>
+  </data>
+  <data name="&gt;&gt;nudConstructionNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nudConstructionNumber.Parent" xml:space="preserve">
+    <value>grpConstructionInfo</value>
+  </data>
+  <data name="&gt;&gt;nudConstructionNumber.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblConstructionNumber.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblConstructionNumber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 137</value>
+  </data>
+  <data name="lblConstructionNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 13</value>
+  </data>
+  <data name="lblConstructionNumber.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblConstructionNumber.Text" xml:space="preserve">
+    <value># to build</value>
+  </data>
+  <data name="lblConstructionNumber.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblConstructionNumber.Name" xml:space="preserve">
+    <value>lblConstructionNumber</value>
+  </data>
+  <data name="&gt;&gt;lblConstructionNumber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblConstructionNumber.Parent" xml:space="preserve">
+    <value>grpConstructionInfo</value>
+  </data>
+  <data name="&gt;&gt;lblConstructionNumber.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 105</value>
+  </data>
+  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 23</value>
+  </data>
+  <data name="button2.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="button2.Text" xml:space="preserve">
+    <value>Remove from Queue</value>
+  </data>
+  <data name="button2.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;button2.Name" xml:space="preserve">
+    <value>button2</value>
+  </data>
+  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+    <value>grpConstructionInfo</value>
+  </data>
+  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnAddToQueue.Location" type="System.Drawing.Point, System.Drawing">
+    <value>140, 132</value>
+  </data>
+  <data name="btnAddToQueue.Size" type="System.Drawing.Size, System.Drawing">
+    <value>132, 23</value>
+  </data>
+  <data name="btnAddToQueue.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnAddToQueue.Text" xml:space="preserve">
+    <value>Add to Queue</value>
+  </data>
+  <data name="btnAddToQueue.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnAddToQueue.Name" xml:space="preserve">
+    <value>btnAddToQueue</value>
+  </data>
+  <data name="&gt;&gt;btnAddToQueue.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAddToQueue.Parent" xml:space="preserve">
+    <value>grpConstructionInfo</value>
+  </data>
+  <data name="&gt;&gt;btnAddToQueue.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 80</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>grpConstructionInfo</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblConstructionLevel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblConstructionLevel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="lblConstructionLevel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>92, 19</value>
+  </data>
+  <data name="lblConstructionLevel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 13</value>
+  </data>
+  <data name="lblConstructionLevel.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblConstructionLevel.Text" xml:space="preserve">
+    <value>Currently level XX</value>
+  </data>
+  <data name="&gt;&gt;lblConstructionLevel.Name" xml:space="preserve">
+    <value>lblConstructionLevel</value>
+  </data>
+  <data name="&gt;&gt;lblConstructionLevel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblConstructionLevel.Parent" xml:space="preserve">
+    <value>grpConstructionInfo</value>
+  </data>
+  <data name="&gt;&gt;lblConstructionLevel.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblConstructionInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>95, 32</value>
+  </data>
+  <data name="lblConstructionInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 67</value>
+  </data>
+  <data name="lblConstructionInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblConstructionInfo.Text" xml:space="preserve">
+    <value>Construction description goes in this box. It can take up multiple lines and will stop at the bottom of the picture.</value>
+  </data>
+  <data name="&gt;&gt;lblConstructionInfo.Name" xml:space="preserve">
+    <value>lblConstructionInfo</value>
+  </data>
+  <data name="&gt;&gt;lblConstructionInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblConstructionInfo.Parent" xml:space="preserve">
+    <value>grpConstructionInfo</value>
+  </data>
+  <data name="&gt;&gt;lblConstructionInfo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="grpConstructionInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 19</value>
+  </data>
+  <data name="grpConstructionInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 483</value>
+  </data>
+  <data name="grpConstructionInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="grpConstructionInfo.Text" xml:space="preserve">
+    <value>Construction Info</value>
+  </data>
+  <data name="&gt;&gt;grpConstructionInfo.Name" xml:space="preserve">
+    <value>grpConstructionInfo</value>
+  </data>
+  <data name="&gt;&gt;grpConstructionInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grpConstructionInfo.Parent" xml:space="preserve">
+    <value>pnlPlanetInfo</value>
+  </data>
+  <data name="&gt;&gt;grpConstructionInfo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblPlanetEnergy.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblPlanetEnergy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>351, 0</value>
+  </data>
+  <data name="lblPlanetEnergy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 13</value>
+  </data>
+  <data name="lblPlanetEnergy.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblPlanetEnergy.Text" xml:space="preserve">
+    <value>Energy</value>
+  </data>
+  <data name="lblPlanetEnergy.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lblPlanetEnergy.Name" xml:space="preserve">
+    <value>lblPlanetEnergy</value>
+  </data>
+  <data name="&gt;&gt;lblPlanetEnergy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPlanetEnergy.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblPlanetEnergy.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblPlanetDeuterium.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblPlanetDeuterium.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 0</value>
+  </data>
+  <data name="lblPlanetDeuterium.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="lblPlanetDeuterium.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblPlanetDeuterium.Text" xml:space="preserve">
+    <value>Deuterium</value>
+  </data>
+  <data name="lblPlanetDeuterium.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lblPlanetDeuterium.Name" xml:space="preserve">
+    <value>lblPlanetDeuterium</value>
+  </data>
+  <data name="&gt;&gt;lblPlanetDeuterium.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPlanetDeuterium.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblPlanetDeuterium.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblPlanetCrystal.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblPlanetCrystal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>119, 0</value>
+  </data>
+  <data name="lblPlanetCrystal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="lblPlanetCrystal.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblPlanetCrystal.Text" xml:space="preserve">
+    <value>Crystal</value>
+  </data>
+  <data name="lblPlanetCrystal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lblPlanetCrystal.Name" xml:space="preserve">
+    <value>lblPlanetCrystal</value>
+  </data>
+  <data name="&gt;&gt;lblPlanetCrystal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPlanetCrystal.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblPlanetCrystal.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblPlanetMetal.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <data name="lblPlanetMetal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="lblPlanetMetal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="lblPlanetMetal.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblPlanetMetal.Text" xml:space="preserve">
+    <value>Metal</value>
+  </data>
+  <data name="lblPlanetMetal.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>TopCenter</value>
+  </data>
+  <data name="&gt;&gt;lblPlanetMetal.Name" xml:space="preserve">
+    <value>lblPlanetMetal</value>
+  </data>
+  <data name="&gt;&gt;lblPlanetMetal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPlanetMetal.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;lblPlanetMetal.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 13</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>pnlPlanetInfo</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="lblPlanetEnergy" Row="0" RowSpan="1" Column="3" ColumnSpan="1" /&gt;&lt;Control Name="lblPlanetDeuterium" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="lblPlanetCrystal" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="lblPlanetMetal" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,25,Percent,25,Percent,25,Percent,25" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="lstToBuild.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="lstToBuild.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 262</value>
+  </data>
+  <data name="lstToBuild.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 238</value>
+  </data>
+  <data name="lstToBuild.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;lstToBuild.Name" xml:space="preserve">
+    <value>lstToBuild</value>
+  </data>
+  <data name="&gt;&gt;lstToBuild.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstToBuild.Parent" xml:space="preserve">
+    <value>pnlPlanetInfo</value>
+  </data>
+  <data name="&gt;&gt;lstToBuild.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblResourcesMetalMine.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResourcesMetalMine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="lblResourcesMetalMine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="lblResourcesMetalMine.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblResourcesMetalMine.Text" xml:space="preserve">
+    <value>Metal Mine</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesMetalMine.Name" xml:space="preserve">
+    <value>lblResourcesMetalMine</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesMetalMine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesMetalMine.Parent" xml:space="preserve">
+    <value>tabResources</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesMetalMine.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblResourcesSolarPlant.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResourcesSolarPlant.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 42</value>
+  </data>
+  <data name="lblResourcesSolarPlant.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="lblResourcesSolarPlant.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblResourcesSolarPlant.Text" xml:space="preserve">
+    <value>Solar Plant</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesSolarPlant.Name" xml:space="preserve">
+    <value>lblResourcesSolarPlant</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesSolarPlant.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesSolarPlant.Parent" xml:space="preserve">
+    <value>tabResources</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesSolarPlant.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblResourcesDeuteriumTank.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResourcesDeuteriumTank.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 94</value>
+  </data>
+  <data name="lblResourcesDeuteriumTank.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 13</value>
+  </data>
+  <data name="lblResourcesDeuteriumTank.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblResourcesDeuteriumTank.Text" xml:space="preserve">
+    <value>Deuterium Tank</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesDeuteriumTank.Name" xml:space="preserve">
+    <value>lblResourcesDeuteriumTank</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesDeuteriumTank.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesDeuteriumTank.Parent" xml:space="preserve">
+    <value>tabResources</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesDeuteriumTank.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblResourcesCrystalMine.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResourcesCrystalMine.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="lblResourcesCrystalMine.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="lblResourcesCrystalMine.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblResourcesCrystalMine.Text" xml:space="preserve">
+    <value>Crystal Mine</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesCrystalMine.Name" xml:space="preserve">
+    <value>lblResourcesCrystalMine</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesCrystalMine.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesCrystalMine.Parent" xml:space="preserve">
+    <value>tabResources</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesCrystalMine.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblResourcesCrystalStorage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResourcesCrystalStorage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 81</value>
+  </data>
+  <data name="lblResourcesCrystalStorage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="lblResourcesCrystalStorage.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblResourcesCrystalStorage.Text" xml:space="preserve">
+    <value>Crystal Storage</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesCrystalStorage.Name" xml:space="preserve">
+    <value>lblResourcesCrystalStorage</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesCrystalStorage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesCrystalStorage.Parent" xml:space="preserve">
+    <value>tabResources</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesCrystalStorage.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblResourcesDeuteriumSynthesizer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResourcesDeuteriumSynthesizer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 29</value>
+  </data>
+  <data name="lblResourcesDeuteriumSynthesizer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 13</value>
+  </data>
+  <data name="lblResourcesDeuteriumSynthesizer.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblResourcesDeuteriumSynthesizer.Text" xml:space="preserve">
+    <value>Deuterium Synthesizer</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesDeuteriumSynthesizer.Name" xml:space="preserve">
+    <value>lblResourcesDeuteriumSynthesizer</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesDeuteriumSynthesizer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesDeuteriumSynthesizer.Parent" xml:space="preserve">
+    <value>tabResources</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesDeuteriumSynthesizer.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblResourcesMetalStorage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResourcesMetalStorage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 68</value>
+  </data>
+  <data name="lblResourcesMetalStorage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="lblResourcesMetalStorage.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblResourcesMetalStorage.Text" xml:space="preserve">
+    <value>Metal Storage</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesMetalStorage.Name" xml:space="preserve">
+    <value>lblResourcesMetalStorage</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesMetalStorage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesMetalStorage.Parent" xml:space="preserve">
+    <value>tabResources</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesMetalStorage.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblResourcesFusionReactor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResourcesFusionReactor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 55</value>
+  </data>
+  <data name="lblResourcesFusionReactor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="lblResourcesFusionReactor.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblResourcesFusionReactor.Text" xml:space="preserve">
+    <value>Fusion Reactor</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesFusionReactor.Name" xml:space="preserve">
+    <value>lblResourcesFusionReactor</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesFusionReactor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesFusionReactor.Parent" xml:space="preserve">
+    <value>tabResources</value>
+  </data>
+  <data name="&gt;&gt;lblResourcesFusionReactor.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tabResources.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 40</value>
+  </data>
+  <data name="tabResources.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 197</value>
+  </data>
+  <data name="tabResources.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabResources.Text" xml:space="preserve">
+    <value>Resources</value>
+  </data>
+  <data name="&gt;&gt;tabResources.Name" xml:space="preserve">
+    <value>tabResources</value>
+  </data>
+  <data name="&gt;&gt;tabResources.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabResources.Parent" xml:space="preserve">
+    <value>tabControl2</value>
+  </data>
+  <data name="&gt;&gt;tabResources.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblFacilitiesAllianceDepot.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFacilitiesAllianceDepot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 42</value>
+  </data>
+  <data name="lblFacilitiesAllianceDepot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="lblFacilitiesAllianceDepot.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblFacilitiesAllianceDepot.Text" xml:space="preserve">
+    <value>Alliance Depot</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesAllianceDepot.Name" xml:space="preserve">
+    <value>lblFacilitiesAllianceDepot</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesAllianceDepot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesAllianceDepot.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesAllianceDepot.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblFacilitiesResearchLab.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFacilitiesResearchLab.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 29</value>
+  </data>
+  <data name="lblFacilitiesResearchLab.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="lblFacilitiesResearchLab.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblFacilitiesResearchLab.Text" xml:space="preserve">
+    <value>Research Lab</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesResearchLab.Name" xml:space="preserve">
+    <value>lblFacilitiesResearchLab</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesResearchLab.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesResearchLab.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesResearchLab.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblFacilitiesTerraformer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFacilitiesTerraformer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 81</value>
+  </data>
+  <data name="lblFacilitiesTerraformer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="lblFacilitiesTerraformer.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblFacilitiesTerraformer.Text" xml:space="preserve">
+    <value>Terraformer</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesTerraformer.Name" xml:space="preserve">
+    <value>lblFacilitiesTerraformer</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesTerraformer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesTerraformer.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesTerraformer.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblFacilitiesRoboticsFactory.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFacilitiesRoboticsFactory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="lblFacilitiesRoboticsFactory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 13</value>
+  </data>
+  <data name="lblFacilitiesRoboticsFactory.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblFacilitiesRoboticsFactory.Text" xml:space="preserve">
+    <value>Robotics Factory</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesRoboticsFactory.Name" xml:space="preserve">
+    <value>lblFacilitiesRoboticsFactory</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesRoboticsFactory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesRoboticsFactory.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesRoboticsFactory.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblFacilitiesNaniteFactory.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFacilitiesNaniteFactory.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 68</value>
+  </data>
+  <data name="lblFacilitiesNaniteFactory.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="lblFacilitiesNaniteFactory.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblFacilitiesNaniteFactory.Text" xml:space="preserve">
+    <value>Nanite Factory</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesNaniteFactory.Name" xml:space="preserve">
+    <value>lblFacilitiesNaniteFactory</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesNaniteFactory.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesNaniteFactory.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesNaniteFactory.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblFacilitiesShipyard.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFacilitiesShipyard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="lblFacilitiesShipyard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 13</value>
+  </data>
+  <data name="lblFacilitiesShipyard.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblFacilitiesShipyard.Text" xml:space="preserve">
+    <value>Shipyard</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesShipyard.Name" xml:space="preserve">
+    <value>lblFacilitiesShipyard</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesShipyard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesShipyard.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesShipyard.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblFacilitiesMissileSilo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFacilitiesMissileSilo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 55</value>
+  </data>
+  <data name="lblFacilitiesMissileSilo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="lblFacilitiesMissileSilo.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblFacilitiesMissileSilo.Text" xml:space="preserve">
+    <value>Missile Silo</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesMissileSilo.Name" xml:space="preserve">
+    <value>lblFacilitiesMissileSilo</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesMissileSilo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesMissileSilo.Parent" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;lblFacilitiesMissileSilo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tabPage5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 215</value>
+  </data>
+  <data name="tabPage5.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabPage5.Text" xml:space="preserve">
+    <value>Facilities</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.Name" xml:space="preserve">
+    <value>tabPage5</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.Parent" xml:space="preserve">
+    <value>tabControl2</value>
+  </data>
+  <data name="&gt;&gt;tabPage5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblResearchShielding.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResearchShielding.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 198</value>
+  </data>
+  <data name="lblResearchShielding.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 13</value>
+  </data>
+  <data name="lblResearchShielding.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblResearchShielding.Text" xml:space="preserve">
+    <value>Shielding Technology</value>
+  </data>
+  <data name="&gt;&gt;lblResearchShielding.Name" xml:space="preserve">
+    <value>lblResearchShielding</value>
+  </data>
+  <data name="&gt;&gt;lblResearchShielding.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResearchShielding.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;lblResearchShielding.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblResearchEnergy.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResearchEnergy.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="lblResearchEnergy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="lblResearchEnergy.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblResearchEnergy.Text" xml:space="preserve">
+    <value>Energy Technology</value>
+  </data>
+  <data name="&gt;&gt;lblResearchEnergy.Name" xml:space="preserve">
+    <value>lblResearchEnergy</value>
+  </data>
+  <data name="&gt;&gt;lblResearchEnergy.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResearchEnergy.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;lblResearchEnergy.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblResearchWeapons.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResearchWeapons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 185</value>
+  </data>
+  <data name="lblResearchWeapons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>112, 13</value>
+  </data>
+  <data name="lblResearchWeapons.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblResearchWeapons.Text" xml:space="preserve">
+    <value>Weapons Technology</value>
+  </data>
+  <data name="&gt;&gt;lblResearchWeapons.Name" xml:space="preserve">
+    <value>lblResearchWeapons</value>
+  </data>
+  <data name="&gt;&gt;lblResearchWeapons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResearchWeapons.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;lblResearchWeapons.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblResearchLaser.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResearchLaser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="lblResearchLaser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="lblResearchLaser.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblResearchLaser.Text" xml:space="preserve">
+    <value>Laser Technology</value>
+  </data>
+  <data name="&gt;&gt;lblResearchLaser.Name" xml:space="preserve">
+    <value>lblResearchLaser</value>
+  </data>
+  <data name="&gt;&gt;lblResearchLaser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResearchLaser.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;lblResearchLaser.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblResearchArmour.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResearchArmour.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 172</value>
+  </data>
+  <data name="lblResearchArmour.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="lblResearchArmour.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblResearchArmour.Text" xml:space="preserve">
+    <value>Armour Technology</value>
+  </data>
+  <data name="&gt;&gt;lblResearchArmour.Name" xml:space="preserve">
+    <value>lblResearchArmour</value>
+  </data>
+  <data name="&gt;&gt;lblResearchArmour.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResearchArmour.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;lblResearchArmour.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblResearchIon.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResearchIon.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 29</value>
+  </data>
+  <data name="lblResearchIon.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="lblResearchIon.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblResearchIon.Text" xml:space="preserve">
+    <value>Ion Technology</value>
+  </data>
+  <data name="&gt;&gt;lblResearchIon.Name" xml:space="preserve">
+    <value>lblResearchIon</value>
+  </data>
+  <data name="&gt;&gt;lblResearchIon.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResearchIon.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;lblResearchIon.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblResearchGraviton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResearchGraviton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 159</value>
+  </data>
+  <data name="lblResearchGraviton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>106, 13</value>
+  </data>
+  <data name="lblResearchGraviton.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblResearchGraviton.Text" xml:space="preserve">
+    <value>Graviton Technology</value>
+  </data>
+  <data name="&gt;&gt;lblResearchGraviton.Name" xml:space="preserve">
+    <value>lblResearchGraviton</value>
+  </data>
+  <data name="&gt;&gt;lblResearchGraviton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResearchGraviton.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;lblResearchGraviton.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblResearchPlasma.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResearchPlasma.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 55</value>
+  </data>
+  <data name="lblResearchPlasma.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="lblResearchPlasma.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblResearchPlasma.Text" xml:space="preserve">
+    <value>Plasma Technology</value>
+  </data>
+  <data name="&gt;&gt;lblResearchPlasma.Name" xml:space="preserve">
+    <value>lblResearchPlasma</value>
+  </data>
+  <data name="&gt;&gt;lblResearchPlasma.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResearchPlasma.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;lblResearchPlasma.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblResearchEspionage.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResearchEspionage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 107</value>
+  </data>
+  <data name="lblResearchEspionage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 13</value>
+  </data>
+  <data name="lblResearchEspionage.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblResearchEspionage.Text" xml:space="preserve">
+    <value>Espionage Technology</value>
+  </data>
+  <data name="&gt;&gt;lblResearchEspionage.Name" xml:space="preserve">
+    <value>lblResearchEspionage</value>
+  </data>
+  <data name="&gt;&gt;lblResearchEspionage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResearchEspionage.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;lblResearchEspionage.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblResearchCombustion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResearchCombustion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 68</value>
+  </data>
+  <data name="lblResearchCombustion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="lblResearchCombustion.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblResearchCombustion.Text" xml:space="preserve">
+    <value>Combustion Drive</value>
+  </data>
+  <data name="&gt;&gt;lblResearchCombustion.Name" xml:space="preserve">
+    <value>lblResearchCombustion</value>
+  </data>
+  <data name="&gt;&gt;lblResearchCombustion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResearchCombustion.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;lblResearchCombustion.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblResearchComputer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResearchComputer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 120</value>
+  </data>
+  <data name="lblResearchComputer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="lblResearchComputer.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblResearchComputer.Text" xml:space="preserve">
+    <value>Computer Technology</value>
+  </data>
+  <data name="&gt;&gt;lblResearchComputer.Name" xml:space="preserve">
+    <value>lblResearchComputer</value>
+  </data>
+  <data name="&gt;&gt;lblResearchComputer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResearchComputer.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;lblResearchComputer.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblResearchImpulse.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResearchImpulse.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 81</value>
+  </data>
+  <data name="lblResearchImpulse.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 13</value>
+  </data>
+  <data name="lblResearchImpulse.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblResearchImpulse.Text" xml:space="preserve">
+    <value>Impulse Drive</value>
+  </data>
+  <data name="&gt;&gt;lblResearchImpulse.Name" xml:space="preserve">
+    <value>lblResearchImpulse</value>
+  </data>
+  <data name="&gt;&gt;lblResearchImpulse.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResearchImpulse.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;lblResearchImpulse.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblResearchAstrophysics.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResearchAstrophysics.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 133</value>
+  </data>
+  <data name="lblResearchAstrophysics.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 13</value>
+  </data>
+  <data name="lblResearchAstrophysics.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblResearchAstrophysics.Text" xml:space="preserve">
+    <value>Astrophysics</value>
+  </data>
+  <data name="&gt;&gt;lblResearchAstrophysics.Name" xml:space="preserve">
+    <value>lblResearchAstrophysics</value>
+  </data>
+  <data name="&gt;&gt;lblResearchAstrophysics.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResearchAstrophysics.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;lblResearchAstrophysics.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblResearchHyperspaceTech.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResearchHyperspaceTech.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 42</value>
+  </data>
+  <data name="lblResearchHyperspaceTech.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 13</value>
+  </data>
+  <data name="lblResearchHyperspaceTech.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblResearchHyperspaceTech.Text" xml:space="preserve">
+    <value>Hyperspace Technology</value>
+  </data>
+  <data name="&gt;&gt;lblResearchHyperspaceTech.Name" xml:space="preserve">
+    <value>lblResearchHyperspaceTech</value>
+  </data>
+  <data name="&gt;&gt;lblResearchHyperspaceTech.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResearchHyperspaceTech.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;lblResearchHyperspaceTech.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblResearchIRN.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResearchIRN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 146</value>
+  </data>
+  <data name="lblResearchIRN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>157, 13</value>
+  </data>
+  <data name="lblResearchIRN.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblResearchIRN.Text" xml:space="preserve">
+    <value>Intergalactic Research Network</value>
+  </data>
+  <data name="&gt;&gt;lblResearchIRN.Name" xml:space="preserve">
+    <value>lblResearchIRN</value>
+  </data>
+  <data name="&gt;&gt;lblResearchIRN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResearchIRN.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;lblResearchIRN.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblResearchHyperspaceDrive.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblResearchHyperspaceDrive.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 94</value>
+  </data>
+  <data name="lblResearchHyperspaceDrive.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="lblResearchHyperspaceDrive.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblResearchHyperspaceDrive.Text" xml:space="preserve">
+    <value>Hyperspace Drive</value>
+  </data>
+  <data name="&gt;&gt;lblResearchHyperspaceDrive.Name" xml:space="preserve">
+    <value>lblResearchHyperspaceDrive</value>
+  </data>
+  <data name="&gt;&gt;lblResearchHyperspaceDrive.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblResearchHyperspaceDrive.Parent" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;lblResearchHyperspaceDrive.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="tabPage2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabPage2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabPage2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 215</value>
+  </data>
+  <data name="tabPage2.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabPage2.Text" xml:space="preserve">
+    <value>Research</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Name" xml:space="preserve">
+    <value>tabPage2</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.Parent" xml:space="preserve">
+    <value>tabControl2</value>
+  </data>
+  <data name="&gt;&gt;tabPage2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblShipyardSolarSatellite.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblShipyardSolarSatellite.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 172</value>
+  </data>
+  <data name="lblShipyardSolarSatellite.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 13</value>
+  </data>
+  <data name="lblShipyardSolarSatellite.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblShipyardSolarSatellite.Text" xml:space="preserve">
+    <value>Solar Satellite</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardSolarSatellite.Name" xml:space="preserve">
+    <value>lblShipyardSolarSatellite</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardSolarSatellite.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardSolarSatellite.Parent" xml:space="preserve">
+    <value>tabShipyard</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardSolarSatellite.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblShipyardCruiser.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblShipyardCruiser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 29</value>
+  </data>
+  <data name="lblShipyardCruiser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 13</value>
+  </data>
+  <data name="lblShipyardCruiser.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblShipyardCruiser.Text" xml:space="preserve">
+    <value>Cruiser</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardCruiser.Name" xml:space="preserve">
+    <value>lblShipyardCruiser</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardCruiser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardCruiser.Parent" xml:space="preserve">
+    <value>tabShipyard</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardCruiser.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblShipyardEspionageProbe.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblShipyardEspionageProbe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 159</value>
+  </data>
+  <data name="lblShipyardEspionageProbe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="lblShipyardEspionageProbe.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblShipyardEspionageProbe.Text" xml:space="preserve">
+    <value>Espionage Probe</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardEspionageProbe.Name" xml:space="preserve">
+    <value>lblShipyardEspionageProbe</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardEspionageProbe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardEspionageProbe.Parent" xml:space="preserve">
+    <value>tabShipyard</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardEspionageProbe.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblShipyardLightFighter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblShipyardLightFighter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="lblShipyardLightFighter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="lblShipyardLightFighter.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblShipyardLightFighter.Text" xml:space="preserve">
+    <value>Light Fighter</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardLightFighter.Name" xml:space="preserve">
+    <value>lblShipyardLightFighter</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardLightFighter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardLightFighter.Parent" xml:space="preserve">
+    <value>tabShipyard</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardLightFighter.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblShipyardSmallCargo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblShipyardSmallCargo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 107</value>
+  </data>
+  <data name="lblShipyardSmallCargo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="lblShipyardSmallCargo.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblShipyardSmallCargo.Text" xml:space="preserve">
+    <value>Small Cargo</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardSmallCargo.Name" xml:space="preserve">
+    <value>lblShipyardSmallCargo</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardSmallCargo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardSmallCargo.Parent" xml:space="preserve">
+    <value>tabShipyard</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardSmallCargo.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblShipyardHeavyFighter.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblShipyardHeavyFighter.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 16</value>
+  </data>
+  <data name="lblShipyardHeavyFighter.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="lblShipyardHeavyFighter.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblShipyardHeavyFighter.Text" xml:space="preserve">
+    <value>Heavy Fighter</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardHeavyFighter.Name" xml:space="preserve">
+    <value>lblShipyardHeavyFighter</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardHeavyFighter.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardHeavyFighter.Parent" xml:space="preserve">
+    <value>tabShipyard</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardHeavyFighter.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblShipyardLargeCargo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblShipyardLargeCargo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 120</value>
+  </data>
+  <data name="lblShipyardLargeCargo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="lblShipyardLargeCargo.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblShipyardLargeCargo.Text" xml:space="preserve">
+    <value>Large Cargo</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardLargeCargo.Name" xml:space="preserve">
+    <value>lblShipyardLargeCargo</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardLargeCargo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardLargeCargo.Parent" xml:space="preserve">
+    <value>tabShipyard</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardLargeCargo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblShipyardBattlecruiser.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblShipyardBattlecruiser.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 55</value>
+  </data>
+  <data name="lblShipyardBattlecruiser.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="lblShipyardBattlecruiser.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblShipyardBattlecruiser.Text" xml:space="preserve">
+    <value>Battlecruiser</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardBattlecruiser.Name" xml:space="preserve">
+    <value>lblShipyardBattlecruiser</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardBattlecruiser.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardBattlecruiser.Parent" xml:space="preserve">
+    <value>tabShipyard</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardBattlecruiser.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblShipyardColonyShip.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblShipyardColonyShip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 133</value>
+  </data>
+  <data name="lblShipyardColonyShip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 13</value>
+  </data>
+  <data name="lblShipyardColonyShip.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblShipyardColonyShip.Text" xml:space="preserve">
+    <value>Colony Ship</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardColonyShip.Name" xml:space="preserve">
+    <value>lblShipyardColonyShip</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardColonyShip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardColonyShip.Parent" xml:space="preserve">
+    <value>tabShipyard</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardColonyShip.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblShipyardBomber.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblShipyardBomber.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 68</value>
+  </data>
+  <data name="lblShipyardBomber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="lblShipyardBomber.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblShipyardBomber.Text" xml:space="preserve">
+    <value>Bomber</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardBomber.Name" xml:space="preserve">
+    <value>lblShipyardBomber</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardBomber.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardBomber.Parent" xml:space="preserve">
+    <value>tabShipyard</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardBomber.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblShipyardRecycler.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblShipyardRecycler.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 146</value>
+  </data>
+  <data name="lblShipyardRecycler.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 13</value>
+  </data>
+  <data name="lblShipyardRecycler.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblShipyardRecycler.Text" xml:space="preserve">
+    <value>Recycler</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardRecycler.Name" xml:space="preserve">
+    <value>lblShipyardRecycler</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardRecycler.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardRecycler.Parent" xml:space="preserve">
+    <value>tabShipyard</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardRecycler.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblShipyardDestroyer.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblShipyardDestroyer.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 81</value>
+  </data>
+  <data name="lblShipyardDestroyer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 13</value>
+  </data>
+  <data name="lblShipyardDestroyer.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblShipyardDestroyer.Text" xml:space="preserve">
+    <value>Destroyer</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardDestroyer.Name" xml:space="preserve">
+    <value>lblShipyardDestroyer</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardDestroyer.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardDestroyer.Parent" xml:space="preserve">
+    <value>tabShipyard</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardDestroyer.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblShipyardDeathstar.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblShipyardDeathstar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 94</value>
+  </data>
+  <data name="lblShipyardDeathstar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="lblShipyardDeathstar.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblShipyardDeathstar.Text" xml:space="preserve">
+    <value>Deathstar</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardDeathstar.Name" xml:space="preserve">
+    <value>lblShipyardDeathstar</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardDeathstar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardDeathstar.Parent" xml:space="preserve">
+    <value>tabShipyard</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardDeathstar.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblShipyardBattleship.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblShipyardBattleship.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 42</value>
+  </data>
+  <data name="lblShipyardBattleship.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 13</value>
+  </data>
+  <data name="lblShipyardBattleship.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblShipyardBattleship.Text" xml:space="preserve">
+    <value>Battleship</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardBattleship.Name" xml:space="preserve">
+    <value>lblShipyardBattleship</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardBattleship.Type" xml:space="preserve">
+    <value>System.Windows.Forms.LinkLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardBattleship.Parent" xml:space="preserve">
+    <value>tabShipyard</value>
+  </data>
+  <data name="&gt;&gt;lblShipyardBattleship.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="tabShipyard.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 40</value>
+  </data>
+  <data name="tabShipyard.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabShipyard.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 197</value>
+  </data>
+  <data name="tabShipyard.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabShipyard.Text" xml:space="preserve">
+    <value>Shipyard </value>
+  </data>
+  <data name="&gt;&gt;tabShipyard.Name" xml:space="preserve">
+    <value>tabShipyard</value>
+  </data>
+  <data name="&gt;&gt;tabShipyard.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabShipyard.Parent" xml:space="preserve">
+    <value>tabControl2</value>
+  </data>
+  <data name="&gt;&gt;tabShipyard.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tabPage3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 40</value>
+  </data>
+  <data name="tabPage3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 197</value>
+  </data>
+  <data name="tabPage3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tabPage3.Text" xml:space="preserve">
+    <value>Defense </value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Name" xml:space="preserve">
+    <value>tabPage3</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.Parent" xml:space="preserve">
+    <value>tabControl2</value>
+  </data>
+  <data name="&gt;&gt;tabPage3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabPage6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 40</value>
+  </data>
+  <data name="tabPage6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>177, 197</value>
+  </data>
+  <data name="tabPage6.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="tabPage6.Text" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="&gt;&gt;tabPage6.Name" xml:space="preserve">
+    <value>tabPage6</value>
+  </data>
+  <data name="&gt;&gt;tabPage6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabPage6.Parent" xml:space="preserve">
+    <value>tabControl2</value>
+  </data>
+  <data name="&gt;&gt;tabPage6.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tabControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 19</value>
+  </data>
+  <data name="tabControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>185, 241</value>
+  </data>
+  <data name="tabControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;tabControl2.Name" xml:space="preserve">
+    <value>tabControl2</value>
+  </data>
+  <data name="&gt;&gt;tabControl2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl2.Parent" xml:space="preserve">
+    <value>pnlPlanetInfo</value>
+  </data>
+  <data name="&gt;&gt;tabControl2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pnlPlanetInfo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pnlPlanetInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="pnlPlanetInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>466, 505</value>
+  </data>
+  <data name="pnlPlanetInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pnlPlanetInfo.Name" xml:space="preserve">
+    <value>pnlPlanetInfo</value>
+  </data>
+  <data name="&gt;&gt;pnlPlanetInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pnlPlanetInfo.Parent" xml:space="preserve">
+    <value>tabInvisiblePlanet</value>
+  </data>
+  <data name="&gt;&gt;pnlPlanetInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabInvisiblePlanet.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabInvisiblePlanet.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabInvisiblePlanet.Size" type="System.Drawing.Size, System.Drawing">
+    <value>472, 511</value>
+  </data>
+  <data name="tabInvisiblePlanet.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabInvisiblePlanet.Text" xml:space="preserve">
+    <value>Invisible Planet Tab</value>
+  </data>
+  <data name="&gt;&gt;tabInvisiblePlanet.Name" xml:space="preserve">
+    <value>tabInvisiblePlanet</value>
+  </data>
+  <data name="&gt;&gt;tabInvisiblePlanet.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabInvisiblePlanet.Parent" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabInvisiblePlanet.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabControl1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>480, 537</value>
+  </data>
+  <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Name" xml:space="preserve">
+    <value>tabControl1</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>480, 559</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>488, 9999</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>488, 349</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>OGame Planet Builder V2</value>
+  </data>
+  <data name="&gt;&gt;stsPrimaryLabel.Name" xml:space="preserve">
+    <value>stsPrimaryLabel</value>
+  </data>
+  <data name="&gt;&gt;stsPrimaryLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

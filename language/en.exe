@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="FacilitiesAllianceDepot" xml:space="preserve">
+    <value>Alliance Depot</value>
+  </data>
+  <data name="FacilitiesAllianceDepotDescription" xml:space="preserve">
+    <value>The alliance depot supplies fuel to friendly fleets in orbit helping with defense.</value>
+  </data>
+  <data name="FacilitiesMissileSilo" xml:space="preserve">
+    <value>Missile Silo</value>
+  </data>
+  <data name="FacilitiesMissileSiloDescription" xml:space="preserve">
+    <value>Missile silos are used to store missiles.</value>
+  </data>
+  <data name="FacilitiesNaniteFactory" xml:space="preserve">
+    <value>Nanite Factory</value>
+  </data>
+  <data name="FacilitiesNaniteFactoryDescription" xml:space="preserve">
+    <value>This is the ultimate in robotics technology. Each level cuts the construction time for buildings, ships, and defenses.</value>
+  </data>
+  <data name="FacilitiesResearchLab" xml:space="preserve">
+    <value>Research Lab</value>
+  </data>
+  <data name="FacilitiesResearchLabDescription" xml:space="preserve">
+    <value>A research lab is required in order to conduct research into new technologies.</value>
+  </data>
+  <data name="FacilitiesRoboticsFactory" xml:space="preserve">
+    <value>Robotics Factory</value>
+  </data>
+  <data name="FacilitiesRoboticsFactoryDescription" xml:space="preserve">
+    <value>Robotic factories provide construction robots to aid in the construction of buildings. Each level increases the speed of the upgrade of buildings.</value>
+  </data>
+  <data name="FacilitiesShipyard" xml:space="preserve">
+    <value>Shipyard</value>
+  </data>
+  <data name="FacilitiesShipyardDescription" xml:space="preserve">
+    <value>All types of ships and defensive facilities are built in the planetary shipyard.</value>
+  </data>
+  <data name="FacilitiesTerraformer" xml:space="preserve">
+    <value>Terraformer</value>
+  </data>
+  <data name="FacilitiesTerraformerDescription" xml:space="preserve">
+    <value>The terraformer increases the usable surface of planets.</value>
+  </data>
+  <data name="ResearchArmour" xml:space="preserve">
+    <value>Armour Technology</value>
+  </data>
+  <data name="ResearchArmourDescription" xml:space="preserve">
+    <value>Special alloys improve the armour on ships and defensive structures. The effectiveness of the armour can be increased by 10 % per level.</value>
+  </data>
+  <data name="ResearchAstrophysics" xml:space="preserve">
+    <value>Astrophysics</value>
+  </data>
+  <data name="ResearchAstrophysicsDescription" xml:space="preserve">
+    <value>With an astrophysics research module, ships can undertake long expeditions. Every second level of this technology will allow you to colonise an extra planet.</value>
+  </data>
+  <data name="ResearchCombustion" xml:space="preserve">
+    <value>Combustion Drive</value>
+  </data>
+  <data name="ResearchCombustionDescription" xml:space="preserve">
+    <value>The development of this drive makes some ships faster, although each level increases speed by only 10 % of the base value.</value>
+  </data>
+  <data name="ResearchComputer" xml:space="preserve">
+    <value>Computer Technology</value>
+  </data>
+  <data name="ResearchComputerDescription" xml:space="preserve">
+    <value>More fleets can be commanded by increasing computer capacities. Each level of computer technology increases the maximum number of fleets by one.</value>
+  </data>
+  <data name="ResearchEnergy" xml:space="preserve">
+    <value>Energy Technology</value>
+  </data>
+  <data name="ResearchEnergyDescription" xml:space="preserve">
+    <value>The command of different types of energy is necessary for many new technologies.</value>
+  </data>
+  <data name="ResearchEspionage" xml:space="preserve">
+    <value>Espionage Technology</value>
+  </data>
+  <data name="ResearchEspionageDescription" xml:space="preserve">
+    <value>Information about other planets and moons can be gained using this technology.</value>
+  </data>
+  <data name="ResearchGraviton" xml:space="preserve">
+    <value>Graviton Technology</value>
+  </data>
+  <data name="ResearchGravitonDescription" xml:space="preserve">
+    <value>Firing a concentrated charge of graviton particles can create an artificial gravity field, which can destroy ships or even moons.</value>
+  </data>
+  <data name="ResearchHyperspaceDrive" xml:space="preserve">
+    <value>Hyperspace Drive</value>
+  </data>
+  <data name="ResearchHyperspaceDriveDescription" xml:space="preserve">
+    <value>Hyperspace drive warps space around a ship. The development of this drive makes some ships faster, although each level increases speed by only 30 % of the base value.</value>
+  </data>
+  <data name="ResearchHyperspaceTech" xml:space="preserve">
+    <value>Hyperspace Technology</value>
+  </data>
+  <data name="ResearchHyperspaceTechDescription" xml:space="preserve">
+    <value>By integrating the 4th and 5th dimensions it is now possible to research a new kind of drive that is more economical and efficient.</value>
+  </data>
+  <data name="ResearchImpulse" xml:space="preserve">
+    <value>Impulse Drive</value>
+  </data>
+  <data name="ResearchImpulseDescription" xml:space="preserve">
+    <value>The impulse drive is based on the reaction principle. Further development of this drive makes some ships faster, although each level increases speed by only 20 % of the base value.</value>
+  </data>
+  <data name="ResearchIon" xml:space="preserve">
+    <value>Ion Technology</value>
+  </data>
+  <data name="ResearchIonDescription" xml:space="preserve">
+    <value>A deadly beam of accelerated ions. This causes enormous damage when striking an object.</value>
+  </data>
+  <data name="ResearchIRN" xml:space="preserve">
+    <value>Intergalactic Research Network</value>
+  </data>
+  <data name="ResearchIRNDescription" xml:space="preserve">
+    <value>Researchers on different planets communicate via this network.</value>
+  </data>
+  <data name="ResearchLaser" xml:space="preserve">
+    <value>Laser Technology</value>
+  </data>
+  <data name="ResearchLaserDescription" xml:space="preserve">
+    <value>Focusing light produces a beam that causes damage when it strikes an object.</value>
+  </data>
+  <data name="ResearchPlasma" xml:space="preserve">
+    <value>Plasma Technology</value>
+  </data>
+  <data name="ResearchPlasmaDescription" xml:space="preserve">
+    <value>A further development of ion technology which accelerates high-energy Plasma, a result of super-heating Ions. This has a devastating effect when striking an object.</value>
+  </data>
+  <data name="ResearchShielding" xml:space="preserve">
+    <value>Shielding Technology</value>
+  </data>
+  <data name="ResearchShieldingDescription" xml:space="preserve">
+    <value>Shielding technology makes the shields on ships and defensive facilities more efficient. Each level of shield technology increases the strength of the shields by 10 % of the base value.</value>
+  </data>
+  <data name="ResearchWeapons" xml:space="preserve">
+    <value>Weapons Technology</value>
+  </data>
+  <data name="ResearchWeaponsDescription" xml:space="preserve">
+    <value>Weapons technology makes weapons systems more efficient. Each level of weapons technology increases the weapon strength of units by 10 % of the base value.</value>
+  </data>
+  <data name="ResourcesCrystal" xml:space="preserve">
+    <value>Crystal</value>
+  </data>
+  <data name="ResourcesCrystalMine" xml:space="preserve">
+    <value>Crystal Mine</value>
+  </data>
+  <data name="ResourcesCrystalMineDescription" xml:space="preserve">
+    <value>Crystals are the main resource used to build electronic circuits and form certain alloy compounds.</value>
+  </data>
+  <data name="ResourcesCrystalStorage" xml:space="preserve">
+    <value>Crystal Storage</value>
+  </data>
+  <data name="ResourcesCrystalStorageDescription" xml:space="preserve">
+    <value>Provides storage for excess crystal.</value>
+  </data>
+  <data name="ResourcesDeuterium" xml:space="preserve">
+    <value>Deuterium</value>
+  </data>
+  <data name="ResourcesDeuteriumStorage" xml:space="preserve">
+    <value>Deuterium Storage</value>
+  </data>
+  <data name="ResourcesDeuteriumStorageDescription" xml:space="preserve">
+    <value>Giant tanks for storing newly-extracted deuterium.</value>
+  </data>
+  <data name="ResourcesDeuteriumSynthesizer" xml:space="preserve">
+    <value>Deuterium Synthesizer</value>
+  </data>
+  <data name="ResourcesDeuteriumSynthesizerDescription" xml:space="preserve">
+    <value>Deuterium is used as fuel for spaceships and is harvested in the deep sea. Deuterium is a rare substance and is thus relatively expensive.</value>
+  </data>
+  <data name="ResourcesEnergy" xml:space="preserve">
+    <value>Energy</value>
+  </data>
+  <data name="ResourcesFusionReactor" xml:space="preserve">
+    <value>Fusion Reactor</value>
+  </data>
+  <data name="ResourcesFusionReactorDescription" xml:space="preserve">
+    <value>The fusion reactor uses deuterium to produce energy.</value>
+  </data>
+  <data name="ResourcesMetal" xml:space="preserve">
+    <value>Metal</value>
+  </data>
+  <data name="ResourcesMetalMine" xml:space="preserve">
+    <value>Metal Mine</value>
+  </data>
+  <data name="ResourcesMetalMineDescription" xml:space="preserve">
+    <value>Used in the extraction of metal ore, metal mines are of primary importance to all emerging and established empires.</value>
+  </data>
+  <data name="ResourcesMetalStorage" xml:space="preserve">
+    <value>Metal Storage</value>
+  </data>
+  <data name="ResourcesMetalStorageDescription" xml:space="preserve">
+    <value>Provides storage for excess metal.</value>
+  </data>
+  <data name="ResourcesPerHour" xml:space="preserve">
+    <value>Per Hour</value>
+  </data>
+  <data name="ResourcesSolarPlant" xml:space="preserve">
+    <value>Solar Plant</value>
+  </data>
+  <data name="ResourcesSolarPlantDescription" xml:space="preserve">
+    <value>Solar power plants absorb energy from solar radiation. All mines need energy to operate.</value>
+  </data>
+  <data name="ShipyardBattlecruiser" xml:space="preserve">
+    <value>Battlecruiser</value>
+  </data>
+  <data name="ShipyardBattlecruiserDescription" xml:space="preserve">
+    <value>The Battlecruiser is highly specialized in the interception of hostile fleets.</value>
+  </data>
+  <data name="ShipyardBattleship" xml:space="preserve">
+    <value>Battleship</value>
+  </data>
+  <data name="ShipyardBattleshipDescription" xml:space="preserve">
+    <value>Battleships form the backbone of a fleet. Their heavy cannons, high speed, and large cargo holds make them opponents to be taken seriously.</value>
+  </data>
+  <data name="ShipyardBomber" xml:space="preserve">
+    <value>Bomber</value>
+  </data>
+  <data name="ShipyardBomberDescription" xml:space="preserve">
+    <value>The bomber was developed especially to destroy the planetary defenses of a world.</value>
+  </data>
+  <data name="ShipyardColonyShip" xml:space="preserve">
+    <value>Colony Ship</value>
+  </data>
+  <data name="ShipyardColonyShipDescription" xml:space="preserve">
+    <value>Vacant planets can be colonized with this ship.</value>
+  </data>
+  <data name="ShipyardCruiser" xml:space="preserve">
+    <value>Cruiser</value>
+  </data>
+  <data name="ShipyardCruiserDescription" xml:space="preserve">
+    <value>Cruisers are armoured almost three times as heavily as heavy fighters and have more than twice the firepower. In addition, they are very fast.</value>
+  </data>
+  <data name="ShipyardDeathstar" xml:space="preserve">
+    <value>Deathstar</value>
+  </data>
+  <data name="ShipyardDeathstarDescription" xml:space="preserve">
+    <value>The destructive power of the deathstar is unsurpassed.</value>
+  </data>
+  <data name="ShipyardDestroyer" xml:space="preserve">
+    <value>Destroyer</value>
+  </data>
+  <data name="ShipyardDestroyerDescription" xml:space="preserve">
+    <value>The destroyer is the king of the warships.</value>
+  </data>
+  <data name="ShipyardEspionageProbe" xml:space="preserve">
+    <value>Espionage Probe</value>
+  </data>
+  <data name="ShipyardEspionageProbeDescription" xml:space="preserve">
+    <value>Espionage probes are small, agile drones that provide data on fleets and planets over great distances.</value>
+  </data>
+  <data name="ShipyardHeavyFighter" xml:space="preserve">
+    <value>Heavy Fighter</value>
+  </data>
+  <data name="ShipyardHeavyFighterDescription" xml:space="preserve">
+    <value>This fighter is better armoured and has a higher attack strength than the light fighter.</value>
+  </data>
+  <data name="ShipyardLargeCargo" xml:space="preserve">
+    <value>Large Cargo</value>
+  </data>
+  <data name="ShipyardLargeCargoDescription" xml:space="preserve">
+    <value>This cargo ship has a much larger cargo capacity than the small cargo, and is generally faster thanks to an improved drive.</value>
+  </data>
+  <data name="ShipyardLightFighter" xml:space="preserve">
+    <value>Light Fighter</value>
+  </data>
+  <data name="ShipyardLightFighterDescription" xml:space="preserve">
+    <value>This is the first fighting ship all emperors will build. The light fighter is an agile ship, but vulnerable by themselves. In mass numbers, they can become a great threat to any empire. They are the first to accompany small and large cargo to hostile planets with minor defenses.</value>
+  </data>
+  <data name="ShipyardRecycler" xml:space="preserve">
+    <value>Recycler</value>
+  </data>
+  <data name="ShipyardRecyclerDescription" xml:space="preserve">
+    <value>Recyclers are the only ships able to harvest debris fields floating in a planets orbit after combat.</value>
+  </data>
+  <data name="ShipyardSmallCargo" xml:space="preserve">
+    <value>Small Cargo</value>
+  </data>
+  <data name="ShipyardSmallCargoDescription" xml:space="preserve">
+    <value>The small cargo is an agile ship which can quickly transport resources to other planets.</value>
+  </data>
+  <data name="ShipyardSolarSatellite" xml:space="preserve">
+    <value>Solar Satellite</value>
+  </data>
+  <data name="ShipyardSolarSatelliteDescription" xml:space="preserve">
+    <value>Solar satellites are simple platforms of solar cells, located in a high, stationary orbit. They gather sunlight and transmit it to the ground station via laser.  A solar satellite produces {DO WE WANT THIS IN OUR DESCRIPTION?} energy on this planet.</value>
+  </data>
+</root>
